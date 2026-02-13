@@ -1,5 +1,4 @@
 import Author from "@/components/Author";
-import TextWithFootnotes from "@/components/TextWithFootnotes";
 
 export default function Resistance() {
     return (

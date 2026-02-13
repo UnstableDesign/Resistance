@@ -23,6 +23,7 @@ const sections: Section[] = [
     { id: 'cut-off-and-repeat', label: 'Cut off and repeat', type: 'part' },
     { id: 'troubles', label: 'Troubles', type: 'part' },
     { id: 'on-designing-with-adacad', label: 'On Designing with AdaCAD', type: 'full' },
+    { id: 'on-designing-templates-for-photoshop', label: 'On Designing Templates for Photoshop', type: 'full' },
 ];
 
 export default function ScrollProgressIndicator() {

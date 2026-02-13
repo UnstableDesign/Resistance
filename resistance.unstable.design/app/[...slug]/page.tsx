@@ -10,9 +10,23 @@ import OnSectionallyWarping from "../chapters/4_on_sectionally_warping";
 import Authors from "@/components/Authors";
 import ScrollProgressIndicator from "@/components/ScrollProgressIndicator";
 import OnDesigningWithAdaCAD from "../chapters/5_on_designing_with_adacad";
+import OnDesigningTemplatesForPhotoshop from "../chapters/6_on_designing_templates_for_photoshop";
 
 
 
+// Add this function to generate all static paths
+export function generateStaticParams() {
+  return [
+    { slug: [] }, // Root path "/"
+    { slug: ['resistance'] },
+    { slug: ['what-the-warp-remembers'] },
+    { slug: ['on-designing-a-warp'] },
+    { slug: ['on-sectionally-warping'] },
+    { slug: ['on-designing-with-adacad'] },
+    { slug: ['on-designing-templates-for-photoshop'] },
+    // Add any other paths you want to support
+  ];
+}
 
 export default function Home() {
   const bannerText = "Now with 3D Printable Models!";
@@ -20,23 +34,32 @@ export default function Home() {
 
   return (
 
-    <div className="flex min-h-screen font-inconsolata items-center justify-center font-sans dark:bg-black">
+    <div className="w-full flex flex-col min-h-screen font-inconsolata items-center justify-center font-sans dark:bg-black">
+
+      <div className="banner-container">
+        <div className="banner-scroll">
+          <span className="banner-text">{repeatedText}</span>
+        </div>
+      </div>
+
       <ScrollProgressIndicator />
 
-      <main className="flex flex-col items-center justify-between sm:items-start">
-        <div className="banner-container bg-red w-full overflow-hidden">
-          <div className="banner-scroll">
-            <span className="banner-text">{repeatedText}</span>
-          </div>
-        </div>
 
 
-        <section id="home" className="home w-full">
+
+
+      <main className="flex flex-col items-center justify-between sm:items-start overflow-hidden">
+
+
+
+        <section id="home" className="home w-full relative top-0 left-0">
 
 
           <div className="title-container min-h-screen w-full p-12">
             <Title />
-            <Authors />
+            <div className="px-16 py-12">
+              <Authors />
+            </div>
           </div>
         </section>
 
@@ -76,7 +99,7 @@ export default function Home() {
         <OnDesigningAWarp />
         <OnSectionallyWarping />
         <OnDesigningWithAdaCAD />
-
+        <OnDesigningTemplatesForPhotoshop />
 
 
       </main >

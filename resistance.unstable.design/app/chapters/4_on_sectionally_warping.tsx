@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function OnSectionallyWarping() {
     return (
 
-        <section id="on-sectionally-warping" className="w-full flex flex-col gap-4 py-12 bg-white min-h-screen">
+        <section id="on-sectionally-warping" className="w-full border-t-2 border-red flex flex-col gap-4 py-12 bg-white min-h-screen">
             <div className="resistance-content mx-auto flex flex-col gap-4">
                 <div className="chapter-header w-2/3 mx-auto">
                     <div className="font-inconsolata text-2xl font-bold text-red">Chapter 4: On Sectionally Warping &amp; Beaming the TC2 Loom</div>
