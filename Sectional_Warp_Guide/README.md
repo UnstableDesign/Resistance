@@ -1,6 +1,6 @@
 # Sectional Warping Guide
 This part fits atop a sectional warping beam such as the one shown here: 
-![file](sectional_warp_example.avif)
+![file](sectionalWarpEx.avif)
 
 This part was been designed and tested by Lily Gabriel. 
 
