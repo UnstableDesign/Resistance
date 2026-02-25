@@ -9,5 +9,6 @@ with whatever glue works best with your printing material
 ![file](Bobbin_Parts.jpg)
 ![file](Bobbin_Finished.jpg)
 
-## Step 3: Wind and WEve
+## Step 3: Wind and Weave
+Shown here in a 9" Schacht Boat Shuttle
 ![file](Bobbin_RTW.jpg)
