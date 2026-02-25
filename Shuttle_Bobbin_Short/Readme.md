@@ -1,5 +1,5 @@
 # 3D Printable Mini-Bobbin
-This bobbin is printed in two parts and can be glued together. The reuslting bobbin is ~2.5" long. 
+This bobbin is printed in two parts and can be glued together. The resulting bobbin is ~2.5" long. 
 
 ## Step 1: Load/Adjust/Print the .STL File on a 3D printer
 ![file](Shuttle_Bobbin_Short.gif)
