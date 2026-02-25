@@ -6,28 +6,23 @@ const models = [
     {
         name: "Bobbin",
         image: "/models/Shuttle_Bobbin_Gif.gif",
-        url: "https://github.com/UnstableDesign/Resistance/blob/main/Shuttle_Bobbin/",
+        url: "https://github.com/UnstableDesign/Resistance/blob/main/Bobbin/",
     },
     {
         name: "Mini Bobbin",
         image: "/models/Shuttle_Bobbin_Short.gif",
-        url: "https://github.com/UnstableDesign/Resistance/blob/main/Shuttle_Bobbin_Short/",
+        url: "https://github.com/UnstableDesign/Resistance/blob/main/Mini_Bobbin/",
     },
     {
         name: "Warp Guide",
         image: "/models/Warp_Beam_Guide_Gif.gif",
-        url: "https://github.com/UnstableDesign/Resistance/blob/main/Warp_Beam_Guide/",
+        url: "https://github.com/UnstableDesign/Resistance/blob/main/Sectional_Warp_Guide/",
     },
     {
         name: "Warp Spool",
         image: "/models/Warp_Spool_Gif.gif",
         url: "https://github.com/UnstableDesign/Resistance/tree/main/Warp_Spool/",
-    },
-    {
-        name: "Warp Spool Cap",
-        image: "/models/Warp_Spool_Addition_Gif.gif",
-        url: "https://github.com/UnstableDesign/Resistance/tree/main/Warp_Spool_Addition/",
-    },
+    }
 ]
 
 export default function Models() {
