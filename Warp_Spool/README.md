@@ -6,7 +6,7 @@ This part was designed and tested by Lily Gabriel.
 
 ## Step 1: Load/Adjust/Print the .STL Files on a 3D printer
 ![file](Warp_Spool_Gif.gif)
-![file](Warp_Spool_Additon_Gif.gif)
+![file](Warp_Spool_Addition_Gif.gif)
 
 ## Step 2: Attach and Wind
 Sadly, we don't have a picture of this one in action!
